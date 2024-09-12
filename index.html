@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Frontend Mentor | Newsletter sign-up form with success message</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <section class="signup">
+      <div class="signup__wrapper grid">
+        <div class="signup__content">
+          <h2 class="signup__title">Stay updated!</h2>
+          <p class="signup__description">Join 60,000+ product managers receiving monthly updates on:</p>
+          <ul class="signup__list">
+            <li class="signup__list-item">Product discovery and building what matters</li>
+            <li class="signup__list-item">Measuring to ensure updates are a success</li>
+            <li class="signup__list-item">And much more!</li>
+          </ul>
+          <form class="signup__form form" novalidate>
+            <div class="form__wrapper">
+              <div class="form__input-group">
+                <label class="form__label" for="email">Email address</label>
+                <span class="form__error" id="error" hidden>Valid email required</span>
+                <input class="from__email" id="email" type="email" name="email" placeholder="email@company.com"/>
+              </div>
+              <button class="form__button button" id="button-submit" type="submit">Subscribe to monthly newsletter</button>
+            </div>
+          </form>
+        </div>
+        <picture class="signup__picture">
+          <source media="(max-width: 900px)" srcset="./assets/images/illustration-sign-up-mobile.svg"/>
+          <source media="(min-width: 901px)" srcset="./assets/images/illustration-sign-up-desktop.svg"/> 
+          <img class="signup__image" src="./assets/images/illustration-sign-up-desktop.svg" alt="illustration"/>
+        </picture>
+      </div>
+    </section>
+  
+    <!-- Sign-up form end -->
+  
+    <!-- Success message start -->
+
+  </main>
+  <!-- Sign-up form start -->
+
+
+  <!-- Success message end -->
+  <script type="module" src="./src/js/main.js"></script>
+</body>
+</html>

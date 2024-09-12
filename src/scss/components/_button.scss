@@ -1,0 +1,26 @@
+.button {
+  box-sizing: border-box;
+  max-width: px-to-rem(376px);
+  height: px-to-rem(56px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: px-to-rem(18px) px-to-rem(71px) px-to-rem(14px) px-to-rem(72px);
+  border-radius: px-to-rem(8px);
+  border: 1px solid transparent;
+  background-color: $dark-slate-grey;
+  color: white;
+  font-family: $base-font-famaly;
+  font-weight: $font-weight-bold;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  text-wrap: nowrap;
+
+  &:hover {
+    cursor: pointer;
+    box-shadow: $shadow;
+    background: linear-gradient(225deg, #ff6a3a 0%, #ff527b 100%);
+    border-color: transparent;
+  }
+}

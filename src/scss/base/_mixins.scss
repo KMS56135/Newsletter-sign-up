@@ -1,0 +1,15 @@
+@mixin heading($size, $weight: $font-weight-bold, $family: $base-font-famaly) {
+  font-size: $size;
+  font-weight: $weight;
+  font-family: $family;
+  line-height: 100%;
+  color: $dark-slate-grey;
+}
+
+@mixin text-style($size, $weight:$font-weight-normal, $family:$base-font-famaly, $color:$dark-slate-grey) {
+  font-size: $size;
+  font-weight: $weight;
+  font-family: $family;
+  line-height: 150%;
+  color: $color;
+}
